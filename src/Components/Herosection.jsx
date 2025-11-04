@@ -28,14 +28,14 @@ function Herosection(){
 
             <motion.div
                 ref={ref}
-                className="relative z-20 flex flex-col gap-4 "
+                className="relative items-center z-20 flex flex-col gap-4 "
                 variants={variants}
                 initial="hidden"
                 animate={mainControls}
             >
 
                 <p
-                    className="flex justify-center md:justify-start md:text-7xl text-5xl text-white font-extrabold"
+                    className="flex md:justify-start md:text-7xl text-5xl text-white font-extrabold"
                 >
                     Scent City Fragrance
                 </p>
@@ -44,7 +44,7 @@ function Herosection(){
                     variants={variants}
                     initial="hidden"
                     animate={mainControls}
-                    className="flex  md:text-3xl text-xl text-white font-bold mb-7 max-w-[300px] md:max-w-[800px]"
+                    className="flex  md:text-3xl text-center text-xl text-white font-bold mb-7 max-w-[300px] md:max-w-[800px]"
                 >
                     Luxury Scents, Real-World Prices.
                 </p>
