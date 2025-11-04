@@ -28,31 +28,21 @@ function Herosection(){
 
             <motion.div
                 ref={ref}
-                className="relative items-center z-20 flex flex-col gap-4 "
+                className="relative md:items-start items-center z-20 flex flex-col gap-4 "
                 variants={variants}
                 initial="hidden"
                 animate={mainControls}
             >
 
-                <p
-                    className="flex md:justify-start md:text-7xl text-5xl text-white font-extrabold"
-                >
+                <p className="flex md:justify-start md:text-7xl text-5xl text-white font-extrabold">
                     Scent City Fragrance
                 </p>
 
-                <p 
-                    variants={variants}
-                    initial="hidden"
-                    animate={mainControls}
-                    className="flex  md:text-3xl text-center text-xl text-white font-bold mb-7 max-w-[300px] md:max-w-[800px]"
-                >
+                <p className="flex md:text-3xl md:justify-start text-xl text-white font-bold mb-7 max-w-[300px] md:max-w-[800px]">
                     Luxury Scents, Real-World Prices.
                 </p>
 
-                <p 
-                    variants={variants}
-                    initial="hidden"
-                    animate={mainControls}
+                <p
                     onClick={() => alert("No Products Yet!")}
                     className="w-[300px] h-[45px] font-extrabold bg-white hover:scale-110 flex justify-center items-center transition-transform duration-500 rounded-sm"
                 >
