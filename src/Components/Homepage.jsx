@@ -1,14 +1,6 @@
 import React, {useEffect, useRef} from "react";
 import Herosection from "./Herosection";
 import {motion, useAnimation, useInView} from "framer-motion"
-import PlainTee from "../assets/plain.jpg"
-import Jean from "../assets/baggyjean.jpg"
-import Joggers from "../assets/joggers.jpg"
-import Jacket from "../assets/jacket.jpeg"
-import Cap from "../assets/hats.jpeg"
-import Glasses from "../assets/shades.jpeg"
-import Shoes from "../assets/shoes.jpeg"
-import Boxers from "../assets/boxers.jpeg"
 
 
 import ninePM from "../assets/9PM.jpeg"
