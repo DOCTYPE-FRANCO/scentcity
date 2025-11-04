@@ -119,10 +119,10 @@ function Homepage(){
                             <img src={product.image} className="w-full object-top hover:scale-110 transition-transform duration-500"/>
                         </div>
                         <div>
-                            <p className="font-bold">{product.name}</p>
+                            <p className="font-extrabold">{product.name}</p>
                         </div>
 
-                        <p onClick={() => alert("Not Yet in Store!")} className="bg-black text-white p-1 px-7 mt-5 font-bold rounded-sm">GO TO SHOP</p>
+                        <p onClick={() => alert("Not Yet in Store!")} className="bg-black text-white p-1 px-7 mt-5 font-bold rounded-sm hover:cursor-pointer hover:bg-gray-500 transition-all duration-300">GO TO SHOP</p>
                     </div>
                 ))}
            </motion.div>
