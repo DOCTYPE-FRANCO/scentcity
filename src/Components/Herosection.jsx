@@ -34,11 +34,11 @@ function Herosection(){
                 animate={mainControls}
             >
 
-                <p className="flex md:justify-start md:text-7xl text-5xl text-white font-extrabold">
+                <p className="flex md:justify-start md:text-7xl max-w-[300px] md:max-w-[950px] text-6xl text-white font-extrabold mb-5">
                     Scent City Fragrance
                 </p>
 
-                <p className="flex md:text-3xl md:justify-start text-xl text-white font-bold mb-7 max-w-[300px] md:max-w-[800px]">
+                <p className="flex md:text-3xl md:justify-start text-center text-xl text-white font-bold mb-7 max-w-[300px] md:max-w-[800px]">
                     Luxury Scents, Real-World Prices.
                 </p>
 
