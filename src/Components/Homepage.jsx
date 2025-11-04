@@ -8,8 +8,19 @@ import Jacket from "../assets/jacket.jpeg"
 import Cap from "../assets/hats.jpeg"
 import Glasses from "../assets/shades.jpeg"
 import Shoes from "../assets/shoes.jpeg"
-import Slides from "../assets/slides.jpeg"
 import Boxers from "../assets/boxers.jpeg"
+
+
+import ninePM from "../assets/9PM.jpeg"
+import Am from "../assets/Am.jpeg"
+import Avanti from "../assets/Avanti.jpeg"
+import Cocktail from "../assets/Cocktail.jpeg"
+import Genie from "../assets/Genie.jpeg"
+import KALY from "../assets/KALY.jpeg"
+import Khamrah from "../assets/Khamrah.jpeg"
+import Newmusk from "../assets/Newmusk.jpeg"
+import Suave from "../assets/Suave.jpeg"
+import Supremacy from "../assets/Supremacy.jpeg"
 
 function Homepage(){
     const ref = useRef(null);
@@ -30,38 +41,62 @@ function Homepage(){
     const products = [
         {
             id: 1,
-            name : "Plain T-shirt",
-            image: PlainTee,
+            name : "9PM",
+            image: ninePM,
         },
 
         {
             id: 2,
-            name : "Baggy Jeans",
-            image: Jean,
+            name : "AM Gold",
+            image: Am,
         },
 
         {
             id: 3,
-            name : "Joggers",
-            image: Joggers,
+            name : "Avanti",
+            image: Avanti,
         },
 
         {
             id: 4,
-            name : "Jacket",
-            image: Jacket,
+            name : "Cocktail",
+            image: Cocktail,
         },
 
         {
             id: 5,
-            name : "Cap",
-            image: Cap,
+            name : "Genie",
+            image: Genie,
         },
 
         {
             id: 6,
-            name : "Glasses",
-            image: Glasses,
+            name : "KALY",
+            image: KALY,
+        },
+
+        {
+            id: 7,
+            name : "Khamrah",
+            image: Khamrah,
+        },
+
+        {
+            id: 8,
+            name : "New Musk",
+            image: Newmusk,
+        },
+
+        {
+            id: 9,
+            name : "Suave",
+            image: Suave,
+        },
+
+        {
+            id: 10,
+            name : "Supremacy",
+            image: Supremacy,
         },
     ]
 
